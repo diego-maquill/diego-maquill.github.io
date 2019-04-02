@@ -26,7 +26,7 @@
                             <a class="nav-link" href="index.html">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Portfolio</a>
+                            <a class="nav-link" href="portafolio.html">Portfolio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="contact.html">Contact</a>
@@ -40,36 +40,40 @@
         <section class="main-section">
             <div class="col-md-12">
                 <div class="page-header">
-                    <h2>About Me</h2>
+                    <h2>Contact</h2>
                 </div>
-                <div class="row">
-                    <div class="col-md-3">
-                        <img id="bio-image" src="assets/images/Profile_picture.jpg" alt="Diego Maquill">
-                    </div>
-                    <div class="col-md-9">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dignissim, felis ut dictum
-                            tristique,
-                            nibh erat feugiat libero, sit amet fringilla mauris velit in mi. Duis tempus felis vitae
-                            felis vulputate pretium. Nullam commodo, est ac auctor ornare, eros nisi fringilla sem,
-                            non pulvinar tortor lorem sit amet sem. Aenean quis erat facilisis, porttitor ex cursus,
-                            luctus enim. Curabitur et metus in lacus tristique sagittis et in lorem. Nunc id nisi et
-                            neque fringilla ultricies. Aenean at feugiat elit, a posuere justo. Pellentesque egestas
-                            dolor et nisi venenatis, nec fermentum urna fringilla. Etiam efficitur porta purus, id
-                            posuere sem congue a.
-                        </p>
-                    </div>
+                <div class="container">
+                    <form id="contact-form">
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="fname">Name</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="lname">Email</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="subject">Message</label>
+                            </div>
+                            <div class="col-75">
+                                <textarea id="subject" name="subject" placeholder="Write something.."
+                                    style="height:200px"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </form>
                 </div>
-            </div>
-            <div class="col-md-12">
-                <section id="contact-info">
-                    <h3>Contact Info</h3>
-                    <ul id="ulbox">
-                        <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
-                        <li><strong>Github:</strong> <a href="#">sampleName</a></li>
-                        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
-                    </ul>
-                </section>
             </div>
         </section>
     </div>
