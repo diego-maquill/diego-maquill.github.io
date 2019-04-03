@@ -138,6 +138,7 @@ input[type=submit]:hover {
 }
 #portafolio{
   display: block;
+  font-size: 18px;
 }
 .col-25 {
   float: left;
