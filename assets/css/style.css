@@ -39,9 +39,9 @@
       color: rgba(255, 72, 0, 0.445);
       font-weight: bold;
       }
-    ul li{
+    .navbar{
       list-style: none;
-      display: inline-block;      
+      display: -webkit-inline-box;      
     }
   h2 {
     font-size: 24px;
@@ -110,6 +110,11 @@ footer {
 #ulbox{
   width: 300px;
 }
+.ulbox2{
+  
+  display: block;
+
+}
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
@@ -135,10 +140,6 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color: #45a049;
-}
-#portafolio{
-  display: block;
-  font-size: 18px;
 }
 .col-25 {
   float: left;
