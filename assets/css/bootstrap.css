@@ -9,9 +9,10 @@ html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
+      
 }
 body {
-  background: url("../images/planet.jpg");
+  background: url("../images/Under_the_lights.jpg") center center fixed;
   margin: 0;
   font-size: 18px;
   
