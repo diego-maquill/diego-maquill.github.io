@@ -1,9 +1,9 @@
 body {
-	color: white;
+	color: rgb(6, 252, 223);
 	font-size: 18px;
-	}
+	font-weight: bold;
+}
 
 footer {
 	margin: 50px 0;
 }
-
