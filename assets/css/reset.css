@@ -1,15 +1,16 @@
 body {
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 18px;
-    line-height: 34px;
-    color: #777777;
-    background: url("../images/concrete_seamless.png");
-  }
-  
-  * {
-    box-sizing: border-box;
-  }
-  /* http://meyerweb.com/eric/tools/css/reset/ 
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 34px;
+  color: black;
+  /* background: url("../images/black.jpg"); */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -95,7 +96,7 @@ time,
 mark,
 audio,
 video {
-  
+
   /* Positioning */
   margin: 0;
   vertical-align: baseline;
@@ -109,7 +110,7 @@ video {
 
   /* Visual */
   border: 0;
-  
+
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -123,21 +124,29 @@ header,
 hgroup,
 menu,
 nav,
-section { display: block; }
+section {
+  display: block;
+}
 
-body { line-height: 1; }
+body {
+  line-height: 1;
+}
 
 ol,
-ul { list-style: none; }
+ul {
+  list-style: none;
+}
 
 blockquote,
-q { quotes: none; }
+q {
+  quotes: none;
+}
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  
+
   /* Misc */
   content: '';
   content: none;
@@ -145,7 +154,7 @@ q:after {
 }
 
 table {
-  
+
   /* Visual */
   border-collapse: collapse;
   border-spacing: 0;
