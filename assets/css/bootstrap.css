@@ -13,10 +13,15 @@ html {
 }
 
 body {
-  background: url("../images/Under_the_lights.jpg") center center fixed;
+  background-color: #000;
   margin: 0;
   font-size: 18px;
 
+}
+
+.background {
+  background: url("../images/Liverpoorl.jpg");
+  margin-top: -20px;
 }
 
 article,
